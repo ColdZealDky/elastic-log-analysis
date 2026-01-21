@@ -1,0 +1,25 @@
+# Driving Data Analysis Demo
+
+## Overview
+This project demonstrates basic ingestion, querying, and analysis of structured system and driving-related data using Elasticsearch and Python. The goal is to explore data quality, error patterns, and release readiness signals in a production-style workflow.
+
+## What This Shows
+- Understanding of real-world, noisy system data
+- Basic use of Elasticsearch for ingestion and querying
+- Data-driven analysis to support release and operational decisions
+- Clear documentation of assumptions and limitations
+
+## Tools Used
+- Python
+- Elasticsearch
+- Kibana
+- Docker
+
+## Project Structure
+- `data/` – Sample datasets
+- `scripts/` – Ingestion and analysis scripts
+- `notebooks/` – Exploratory analysis
+- `README.md` – Project overview
+
+## Notes
+This project focuses on system-level analysis and delivery insights rather than model development.
