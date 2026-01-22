@@ -1,17 +1,15 @@
-__pycache__/
-*.pyc
 .env
 .vscode/
 .DS_Store
 
-
 # Generated log data
-data/*.ndjson
-data/bulk_*.ndjson
-data/full_*.ndjson
+log_generator/data/*.ndjson
+log_generator/data/bulk_*.ndjson
+log_generator/data/full_*.ndjson
 
 # Elasticsearch artifacts
-data/*.gz
+log_generator/data/*.gz
+
 
 # Python junk
 __pycache__/
